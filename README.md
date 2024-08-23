@@ -51,6 +51,41 @@ A toy platform with a React front-end and Flask-based backend services. The back
             - Since it is a toy-setting ,The core processing is just string reversal , but simulate the acual processing like situation , I'm deliberately creating a delay with sleep.
         
         - Once a job is finished, it will hit the callback endpoint along with the job_id which was issued by the middleware
+    
+
+# Installation:
+
+ Note : 
+ - A good practice is to create a Docker file, so that you dont want to think and fix dependency issues, you can just  use off the shelve.
+ - Instead of storing the username and password tuples in DB,to keep it simple , I have used a simple .json file to store.
+ - To keep it more grounded , I have written bash scripts  
+        - To set up the environment (both node and python).
+        - To run the servers (both frontend and backend)
+ - Assuming that node 16 is available, if not install with nvm using the below command
+    > nvm install 16
+
+## steps to follow:
+
+- Once node16 is available. As the first step , we will setup the the environment. For this ,run 
+    > chmod +x setup_env.sh <br>
+    > ./setup_env.sh
+
+- Once setting up environment is complete, we will run all the servers. For this ,run
+    > chmod +x run_servers.sh <br>
+    > ./run_servers.sh
+
+
+# Results:
+
+- The login page will look as follows:
+
+- The dashboard will look as follows:
+
+- All the logs are dumped into the log directory
+
+
+
+
 
 
 
