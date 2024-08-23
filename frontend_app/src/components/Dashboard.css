@@ -1,0 +1,65 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-container h1 {
+    text-align: center;
+  }
+  
+  .logout-button {
+    float: right;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-submit-form {
+    margin-bottom: 20px;
+  }
+  
+  .job-submit-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .job-submit-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .job-submit-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .job-list {
+    margin-top: 20px;
+  }
+  
+  .job-list h2 {
+    text-align: center;
+  }
+  
+  .job-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-list li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

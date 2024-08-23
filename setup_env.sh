@@ -5,8 +5,8 @@ echo "Switching to Node.js version 16..."
 nvm use 16
 
 # Install npm packages in the frontend-app directory
-echo "Installing npm packages for frontend-app..."
-npm install --prefix frontend-app
+echo "Installing npm packages for frontend_app..."
+npm install --prefix frontend_app
 
 # Create a Python virtual environment named testenv
 echo "Creating a Python virtual environment named 'testenv'..."

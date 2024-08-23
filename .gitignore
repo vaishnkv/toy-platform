@@ -1,7 +1,7 @@
 
-/frontend-app/node_modules
-/frontend-app/.pnp
-/frontend-app.pnp.js
+/frontend_app/node_modules
+/frontend_app/.pnp
+/frontend_app.pnp.js
 
 /testenv 
 /test_env

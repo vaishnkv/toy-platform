@@ -25,7 +25,7 @@ PID2=$!
 python3 middleware.py &
 PID3=$!
 
-PORT=3001 npm --prefix frontend-app  start &
+PORT=3001 npm --prefix frontend_app  start &
 PID4=$!
 
 # Store the PIDs in a file for later use
