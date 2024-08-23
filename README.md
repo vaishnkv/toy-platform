@@ -78,8 +78,11 @@ A toy platform with a React front-end and Flask-based backend services. The back
 # Results:
 
 - The login page will look as follows:
+  ![Screenshot 2024-08-23 at 8 18 44 AM](https://github.com/user-attachments/assets/e42bf365-af34-4b9c-be8d-a5a4583d3b59)
+
 
 - The dashboard will look as follows:
+![Screenshot 2024-08-23 at 8 19 48 AM](https://github.com/user-attachments/assets/33d13269-cee8-469b-96bd-80da56c5b11f)
 
 - All the logs are dumped into the log directory
 
